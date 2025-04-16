@@ -28,11 +28,11 @@ int main(){
     if (bmi < 18.5){
         cout<<"Risulti sottopeso"<<endl;
     }
-    else if (bmi <= 18.5 || bmi < 25){
+    else if (bmi <= 18.5 && bmi < 25){
         cout<<"Risulti normopeso"<<endl;
 
     }
-    else if (bmi <= 25 || bmi < 30){
+    else if (bmi <= 25 && bmi < 30){
         cout<<"Risulti sovrappeso"<<endl;
     }
     else if (bmi >= 30){
