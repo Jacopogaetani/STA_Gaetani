@@ -51,7 +51,7 @@ int main(){
 
     cout<<"Il giorno nel quale si sono verificate piu' vendite e' "<<giorno_migliore<<" con "<<max<<" vendite"<<endl;
 
-    media = totale / 7;
+    media = (float)totale / 7; //Casting della variabile per ottenere un numero di tipo float 
 
     cout<<"In media, la media giornaliera di vendite e' di "<<media<<" copie"<<endl;
 
