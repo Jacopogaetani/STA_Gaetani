@@ -69,7 +69,7 @@ int main() {
     cout<<"\n";
 
 
-    cout<<"Errori: \n "<<errori<<endl;
+    cout<<"Errori: "<<errori<<endl;
 
     cout<<"Numero di a: "<<numero_a<<endl;
     cout<<"Numero di t: "<<numero_t<<endl;
